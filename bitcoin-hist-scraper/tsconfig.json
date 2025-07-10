@@ -1,0 +1,37 @@
+{
+  "compilerOptions": {
+    /* Language and Environment */
+    "target": "esnext",
+    /* Modules */
+    "module": "node18",
+    "rootDir": "src",
+    "moduleResolution": "nodenext",
+    "resolveJsonModule": true,
+    /* JavaScript Support */
+    "allowJs": true,
+    /* Emit */
+    // "declaration": true,         /* Generate .d.ts files from TypeScript and JavaScript files */
+    // "declarationMap": true,      /* Create sourcemaps for d.ts files */
+    // "emitDeclarationOnly": true, /* Only output d.ts files and not JavaScript files */
+    "sourceMap": true,
+    "outDir": "build",
+    "noEmitOnError": true,
+    // "preserveConstEnums": true,  /* Disable erasing 'const enum' declarations */
+    "esModuleInterop": true,
+    "forceConsistentCasingInFileNames": true,
+    /* Type Checking */
+    "strict": true,
+    "noImplicitAny": true,
+    "strictNullChecks": true,
+    /* Completeness */
+    "skipDefaultLibCheck": true,
+    "skipLibCheck": true
+  },
+  "include": [
+    "src"
+  ],
+  "exclude": [
+    "node_modules",
+    "build",
+  ],
+}
